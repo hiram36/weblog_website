@@ -1,0 +1,22 @@
+  883  ssh-keygen -t rsa -C "hiram36@gmail.com"
+  889  cat id_rsa.pub 
+  890  ssh -T git@github.com
+  894  vi /etc/ssh/ssh_config 
+  904  ./git config --global user.name "joel"
+  905  ./git config --global user.email "hiram36@gmail.com"
+  906  ./git status
+  924  git status
+ 1005  git init
+ 1006  git status
+ 1007  git --bare init
+ 1008  git remote add origin git@github.com:hriam36/weblog_website.git
+ 1009  ll
+ 1011  ll
+ 1015  ll
+ 1017  touch README
+ 1018  git add README
+ 1019  git commit -m "weblog first commit"
+ 1028  git remote rm origin
+ 1029  git remote add origin git@github.com:hiram36/weblog_website.git
+ 1033  ll
+ 1036  git push -u -f origin master
